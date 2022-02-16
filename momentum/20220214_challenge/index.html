@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Vanilla Challenge</title>
+    <meta charset="UTF-8" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <form id="randomGameForm">
+      <h1>Random Number Game</h1>
+      <h2>
+        Generate a number between 0 and
+        <div id="test1">
+          <input type="number" id="maxNumber" />
+        </div>
+      </h2>
+      <h3>
+        Guess the number:
+        <input type="number" id="guessNumber" />
+        <input type="button" id="playBtn" value="play!" />
+      </h3>
+      <div id="result1" class="hidden"></div>
+      <div id="result2" class="hidden"></div>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>
